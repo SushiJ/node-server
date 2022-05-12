@@ -1,0 +1,22 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --respawn src/index.ts",
+    "start": "node dist/app.js",
+    "dev2": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.4",
+    "typescript": "^4.6.4",
+    "@types/node": "^17.0.21",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8"
+  },
+  "dependencies": {
+    "date-fns": "^2.28.0",
+    "uuid": "^8.3.2"
+  }
+}
